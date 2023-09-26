@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
-import joblib
 import pickle
 import streamlit.components.v1 as components
 import cv2
