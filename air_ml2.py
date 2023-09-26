@@ -131,7 +131,7 @@ def btn_click():
 # model = tf.keras.models.load_model('satellite_military.h5')
 # model = pickle.load(open('satellite_military_flutter.pkl', 'rb'))
 
-model_path = 'satellite_military_flutter.tflite'
+model_path = 'https://drive.google.com/file/d/1CWcbLjdQt_tXVLMBUI3gH1tLJF_0NIez/view?usp=sharing'
 interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 
